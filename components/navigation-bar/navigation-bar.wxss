@@ -94,3 +94,5 @@
     transform: rotate(360deg);
   }
 }
+
+@import 'navigation-bar-wxa-auto-dark.wxss'
