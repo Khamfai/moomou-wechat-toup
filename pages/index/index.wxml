@@ -1,0 +1,13 @@
+<!--index.wxml-->
+<navigation-bar title="Moomou Pay" back="{{false}}" color="#FFF" background="#f47a69"></navigation-bar>
+<view class="page-body">
+  <view class="page-section">
+    <view class="weui-cells__title label">Phone/Account No.</view>
+    <view class="weui-cells weui-cells_after-title">
+      <view class="weui-cell weui-cell_input">
+        <input class="weui-input input" type="number" auto-focus placeholder="Enter your phone or account" />
+      </view>
+    </view>
+  </view>
+  <button type="primary" bind:tap="gotoTopupPage">Find Account</button>
+</view>

@@ -1,0 +1,16 @@
+<!--pages/account/account.wxml-->
+<!--pages/topup.wxml-->
+<navigation-bar title="Moomou Pay" back="{{true}}" color="#FFF" background="#f47a69"></navigation-bar>
+<view class="page-body">
+  <view class="container">
+    <view class="profile">
+      <image src="/images/mdi--user-circle-outline.svg" class="svg-icon"></image>
+    </view>
+    <view style="padding: 10px 0; text-align: center;">
+      <text>293847293472932</text>
+      <text>Mr. Khamfai</text>
+    </view>
+    <view style="margin: 50px; color: orange;">Please check and confirm your account</view>
+    <button type="primary" style="" bind:tap="onConfirm">Confirm</button>
+  </view>
+</view>

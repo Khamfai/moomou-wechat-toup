@@ -1,0 +1,47 @@
+/**index.wxss**/
+page {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.scrollarea {
+  flex: 1;
+  overflow-y: hidden;
+}
+
+.page-body{
+  padding: 20px;
+}
+
+.label{
+ padding: 10px 0;
+}
+
+.input{
+  border: 2px solid transparent;
+  height: 3em;
+  padding-left: 0.8em;
+  overflow: hidden;
+  background-color: #F3F3F3;
+  border-radius: 10px;
+  transition: all 0.5s;
+}
+
+.input:hover,
+.input:focus {
+  border: 2px solid #4A9DEC;
+  /* box-shadow: 0px 0px 0px 7px rgb(74, 157, 236, 10%); */
+  background-color: white;
+}
+
+button{
+  margin-top: 30rpx;
+  margin-bottom: 30rpx;
+}
+.button-sp-area{
+  margin: 0 auto;
+  width: 60%;
+}
+.mini-btn{
+  margin-right: 10rpx;
+}

@@ -1,0 +1,27 @@
+<!--pages/topup.wxml-->
+<navigation-bar title="Moomou Pay" back="{{true}}" color="#FFF" background="#f47a69"></navigation-bar>
+<view class="page-body">
+  <view class="page-section">
+    <view class="weui-cells__title label">Amount</view>
+    <view class="weui-cells weui-cells_after-title">
+      <view class="weui-cell weui-cell_input">
+        <input class="weui-input input" type="number" auto-focus placeholder="Enter amount" />
+      </view>
+    </view>
+  </view>
+
+  <view class="page-section" style="padding-top: 25px;">
+    <view class="page-section-title" style="padding: 10px 0;">
+      <text>Or select amount:</text>
+    </view>
+    <view class="page-section-spacing">
+      <view class="list-amount">
+        <view wx:for="{{listAmounts}}" wx:key="" class="flex-item amount">{{item.amount}}</view>
+      </view>
+    </view>
+
+    <view style="padding-top: 50px;">
+      <button type="primary" bind:tap="null">Topup</button>
+    </view>
+  </view>
+</view>
